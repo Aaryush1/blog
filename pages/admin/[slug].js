@@ -56,8 +56,6 @@ function PostManager() {
 
 
         const updatePost = async ({ content, published }) => {
-            console.log(content, published)
-
             await postRef.update({
                 content,
                 published,
